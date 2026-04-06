@@ -1,0 +1,29 @@
+@keyframes diagonalDownRight {
+  0% {
+    opacity: 0;
+    transform: translate(-20px, -20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes diagonalUpLeft {
+  0% {
+    opacity: 0;
+    transform: translate(20px, 20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+.animate-diagonal.from-top-left {
+  animation: diagonalDownRight 1s ease forwards;
+}
+
+.animate-diagonal.from-bottom-right {
+  animation: diagonalUpLeft 1s ease forwards;
+}
