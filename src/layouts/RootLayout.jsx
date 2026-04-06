@@ -26,7 +26,7 @@ const RootLayout =()=>{
         <div>
             <Navbar></Navbar>
             <Banner></Banner>
-            {/* <CompanyStatsSection></CompanyStatsSection> */}
+           
             <FlokaSection></FlokaSection>
             <Marquee></Marquee>
             <Outlet></Outlet>
@@ -40,7 +40,7 @@ const RootLayout =()=>{
             <CreativeSection></CreativeSection>
             <TeamSection></TeamSection>
             <FAQSection></FAQSection>
-            {/* <PxlItem></PxlItem> */}
+           
             <BlogInsightsGrid></BlogInsightsGrid>
             <Footer></Footer>
             
